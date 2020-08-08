@@ -1,0 +1,29 @@
+DATA ANALYSIS ON OCEAN AND ATMOSPHERIC CONSEQUENCES IN THE UNITED STATES.
+
+Storms and other severe weather events can cause public health and economic problems for communities and municipalities. Many serious events can lead to death, injury, and property damage, and preventing such outcomes where possible is a key concern.
+
+Due to the above, an interest arises based on something fundamental and it is the provision of data that allows us to evaluate and deepen the dimensions of the damage in various aspects that can generate this type of natural catastrophe, the data to which we have access to address this study were provided to us by the courcera platform and correspond to the storm database of the United States National Oceanic and Atmospheric Administration (NOAA), if we could, through the data, find how to illustrate the effects that these climatic events generate we could be generating a small impact so that those who may feel interested and are trying to obtain information can make their own decisions as a result of these.
+
+The database we have access to tracks major storms and weather events in the United States including when and where events occur, as well as estimates of deaths, injuries, and property damage.
+
+The focus of this analysis is that it can be reproduced.
+
+In this data analysis we have found a topic that is of great interest to me and from which two questions have emerged that we propose to address and try to answer from the data. The questions are:
+
+1. What types of events indicated in the EVTYPE variable are the most harmful with respect to health in the population?
+
+2. In all the united states, what types of events have the greatest economic consequences?
+
+
+PROCESS
+
+The software used to process this data was the R programming language and we used its Rsutdio interface. To address these two questions that arose as a result of the analysis of this data we used the tidyverse library.
+All the step by step is in the script called code.
+
+The variables used for this analysis were:
+
+EVTYPE: is the name of the climatic event.
+INJURIES: number of injuries left by the climatic event.
+STATE: state in which the climatic event occurred.
+
+Anyone who is interested in reproducing this analysis will have available the information deemed necessary for them to reproduce this analysis, for that the database and codes are available, the final analysis can be found on the page
